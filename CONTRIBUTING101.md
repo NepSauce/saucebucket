@@ -22,8 +22,8 @@ These rules exist to keep collaboration clean, predictable, and low-friction. Fo
 ## 1. Repository Structure & Naming
 
 ### Repository
-- Repository name: **kebab-case**
-  - Example: `saucebucket-inventory`
+- Repository name: **Train-Case**
+  - Example: `Saucebucket-Inventory`
 - Default branch: `main`
 - **No direct commits to `main`** — all changes go through Pull Requests
 
@@ -34,7 +34,6 @@ These rules exist to keep collaboration clean, predictable, and low-friction. Fo
 ```
 <change type>/<short-pull-request-description>
 ```
-
 
 ### Examples
 
@@ -50,7 +49,7 @@ chore/update-dependencies
 
 * Lowercase only
 * Use hyphens (`-`), not underscores (`_`)
-* Limit pull requests to one per branch
+* Limit pull requests to one per branch except for documentation
 
 ---
 
@@ -172,7 +171,6 @@ Tested via local UI and API calls.
 * Prefer suggestions over commands
 
 ---
-
 
 ## 8. General Rules of Thumb
 
