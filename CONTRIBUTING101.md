@@ -9,12 +9,12 @@ These rules exist to keep collaboration clean, predictable, and low-friction. Fo
 * `refactor` – internal restructuring
 * `docs` – documentation only
 * `chore` – tooling, configuration, cleanup
-* `build` - CI/CD pipeline, dependency updates
-* `test` - unit tests, component tests, coverage
-* `tech-debt` - system maintenance, reworks
-* `frontend` - UI, interface logic
-* `backend` - business logic
-* `database` - database, CRUD logic
+* `build` – CI/CD pipeline, dependency updates
+* `test` – unit tests, component tests, coverage
+* `tech-debt` – system maintenance, reworks
+* `frontend` – UI, interface logic
+* `backend` – business logic
+* `database` – database, CRUD logic
 
 
 ---
