@@ -4,17 +4,17 @@ These rules exist to keep collaboration clean, predictable, and low-friction. Fo
 
 ### Change Types
 
-* `feat` – new functionality
-* `fix` – bug fixes
-* `refactor` – internal restructuring
-* `docs` – documentation only
-* `chore` – tooling, configuration, cleanup
-* `build` – CI/CD pipeline, dependency updates
-* `test` – unit tests, component tests, coverage
-* `tech-debt` – system maintenance, reworks
-* `frontend` – UI, interface logic
-* `backend` – business logic
-* `database` – database, CRUD logic
+* `feat` - new functionality
+* `fix` - bug fixes
+* `refactor` - internal restructuring
+* `docs` - documentation only
+* `chore` - tooling, configuration, cleanup
+* `build` - CI/CD pipeline, dependency updates
+* `test` - unit tests, component tests, coverage
+* `tech-debt` - system maintenance, reworks
+* `frontend` - UI, interface logic
+* `backend` - business logic
+* `database` - database, CRUD logic
 
 
 ---
@@ -25,7 +25,7 @@ These rules exist to keep collaboration clean, predictable, and low-friction. Fo
 - Repository name: **kebab-case**
   - Example: `saucebucket-inventory`
 - Default branch: `main`
-- **No direct commits to `main`** — all changes go through Pull Requests
+- **No direct commits to `main`** - all changes go through Pull Requests
 
 ## 2. Branch Naming Conventions
 
