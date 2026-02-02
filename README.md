@@ -4,7 +4,7 @@
 ## !!Refer To The Contributing Handbook Before Starting!!
 
 
-### --> [Contributing Handbook](CONTRIBUTING101.md) <--
+### --> [Contributing Handbook](CONTRIBUTING_HANDBOOK.md) <--
 
 
 ## Getting started
@@ -14,7 +14,7 @@
 **Step 1: Clone and enter repo**
 ```bash
 git clone https://github.com/NepSauce/saucebucket.git
-cd SauceBucket
+cd saucebucket
 ```
 
 **Step 2: Install .NET 9 SDK and MAUI workload**
