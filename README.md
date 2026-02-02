@@ -1,11 +1,11 @@
 # SauceBucket
 
 
-## !!Refer To The Contributing Handbook Before Starting!!
+## !!Refer To The These Handbooks Before Starting!!
 
-
-### --> [Contributing Handbook](CONTRIBUTING_HANDBOOK.md) <--
-
+### --> [Project Structure](PROJECT_STRUCTURE.md) 
+### --> [Contributing Handbook](CONTRIBUTING_HANDBOOK.md) 
+### --> [MAUI Navigation & Debugging Guide](MAUI_NAV_DEBUG_GUIDE.md) 
 
 ## Getting started
 
