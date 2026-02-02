@@ -1,4 +1,4 @@
-name: .NET MAUI Warmup Build
+name: .NET Avalonia Build
 
 on:
   push:
@@ -18,11 +18,8 @@ jobs:
         with:
           dotnet-version: 9.0.x
 
-      - name: Install MAUI workload
-        run: dotnet workload install maui
-
       - name: Restore dependencies
         run: dotnet restore
 
       - name: Build (Windows)
-        run: dotnet build -f net9.0-windows10.0.19041.0 --no-restore
+        run: dotnet build -f net9.0 --no-restore
