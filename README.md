@@ -37,11 +37,6 @@ Choose your target platform:
 dotnet run -f net9.0-windows10.0.19041.0
 ```
 
-- **Android (emulator/device):**
-```bash
-dotnet run -f net9.0-android
-```
-
 - **iOS (macOS + Xcode required):**
 ```bash
 dotnet run -f net9.0-ios
@@ -61,11 +56,6 @@ dotnet run -f net9.0-tizen
 ```bash
 dotnet build -f <TFM>
 ```
-
-### Key files
-- `SauceBucket.csproj` — project config and app icon.
-- `AppShell.xaml` — Shell and top-left icon behavior.
-- `Resources/Styles/Colors.xaml` — change `Primary` color here.
 
 ### Troubleshoot
 - **If workloads missing:**
