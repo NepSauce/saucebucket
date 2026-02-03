@@ -1,7 +1,7 @@
 # SauceBucket
 
 
-## !!Refer To The These Handbooks Before Starting!!
+## !!Refer To These Handbooks Before Starting!!
 
 ### --> [Project Structure](PROJECT_STRUCTURE.md) 
 ### --> [Contributing Handbook](CONTRIBUTING_HANDBOOK.md) 
