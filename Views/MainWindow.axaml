@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:SauceBucket"
+        x:Class="SauceBucket.Views.MainWindow">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <local:LeftSideBar Grid.Column="0"/>
+        <Grid Grid.Column="1">
+
+        </Grid>
+    </Grid>
+</Window>
