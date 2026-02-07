@@ -5,17 +5,39 @@
              x:Class="SauceBucket.LeftSideBar"
              x:DataType="vm:LeftSideBarViewModel">
 
-    <Border Background="#FFF7E3" Padding="12" Width="220">
+    <Border Background="#FFF7E3" Padding="0" Width="220">
         <StackPanel>
-            <TextBlock Text="Quick Access" Foreground="#FF8C4A" Margin="0,0,0,20" FontWeight="Bold" FontSize="22"/>
+            <!-- Modern logo and title in one line -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,15,0,0" Spacing="4">
+                <Border Background="#ffc341" CornerRadius="8" Padding="8,8" VerticalAlignment="Center">
+                    <TextBlock Text="SaBu"
+                               Foreground="#FFF7E3"
+                               FontWeight="Bold"
+                               FontSize="16"
+                               FontFamily="Inter, Segoe UI, Arial"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Border>
+                <TextBlock Text="SauceBucket"
+                           Foreground="#222"
+                           FontWeight="Bold"
+                           FontSize="20"
+                           FontFamily="Inter, Segoe UI, Arial"
+                           VerticalAlignment="Center"
+                           LetterSpacing="0.5"
+                           Margin="0,0,0,0"/>
+            </StackPanel>
+
+            <TextBlock Text="Quick Access" Foreground="#222" Margin="0,15,0,20" FontWeight="Bold" FontSize="24" FontFamily="Inter, Segoe UI, Arial" HorizontalAlignment="Left" Padding="10,0,0,0"/>
 
             <!-- Placeholder items only -->
             <StackPanel Orientation="Vertical" Spacing="12" Margin="0,0,0,0">
                 <Button Content="Placeholder 1"
                         Background="#FFE0B2"
-                        Foreground="#FF8C4A"
-                        FontSize="17"
+                        Foreground="#222"
+                        FontSize="18"
                         FontWeight="SemiBold"
+                        FontFamily="Inter, Segoe UI, Arial"
                         BorderBrush="#FF8C4A"
                         BorderThickness="1"
                         Padding="10,6"
@@ -23,15 +45,16 @@
                     <Button.Styles>
                         <Style Selector="Button:hover">
                             <Setter Property="Background" Value="#FFF3D1"/>
-                            <Setter Property="Foreground" Value="#FF8C4A"/>
+                            <Setter Property="Foreground" Value="#222"/>
                         </Style>
                     </Button.Styles>
                 </Button>
                 <Button Content="Placeholder 2"
                         Background="#FFE0B2"
-                        Foreground="#FF8C4A"
-                        FontSize="17"
+                        Foreground="#222"
+                        FontSize="18"
                         FontWeight="SemiBold"
+                        FontFamily="Inter, Segoe UI, Arial"
                         BorderBrush="#FF8C4A"
                         BorderThickness="1"
                         Padding="10,6"
@@ -39,7 +62,7 @@
                     <Button.Styles>
                         <Style Selector="Button:hover">
                             <Setter Property="Background" Value="#FFF3D1"/>
-                            <Setter Property="Foreground" Value="#FF8C4A"/>
+                            <Setter Property="Foreground" Value="#222"/>
                         </Style>
                     </Button.Styles>
                 </Button>
