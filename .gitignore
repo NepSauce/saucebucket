@@ -25,11 +25,9 @@ logs/
 *.log
 
 # ===============================
-# Local databases / persistence
+# Local Databases / persistence
 # ===============================
-*.db
-*.sqlite
-*.sqlite3
+
 
 # ===============================
 # Secrets & credentials
