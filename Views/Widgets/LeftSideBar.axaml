@@ -5,81 +5,102 @@
              x:Class="SauceBucket.LeftSideBar"
              x:DataType="vm:LeftSideBarViewModel">
 
-    <Border Background="#FFF7E3" Padding="0" Width="220">
-        <StackPanel>
-            <!-- Modern logo and title in one line -->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,15,0,0" Spacing="4">
-                <Border Background="#ffc341" CornerRadius="8" Padding="8,8" VerticalAlignment="Center">
+    <Border Background="#ffffff" Padding="0" Width="220">
+        <StackPanel Spacing="0">
+            <!-- Modern logo and app title -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="16,24,0,0" Spacing="8">
+                <Border Background="#ffc341" CornerRadius="12" Padding="10,10" VerticalAlignment="Center">
                     <TextBlock Text="SaBu"
-                               Foreground="#FFF7E3"
+                               Foreground="#ffffff"
                                FontWeight="Bold"
-                               FontSize="16"
-                               FontFamily="Inter, Segoe UI, Arial"
+                               FontSize="18"
+                               FontFamily="Instrument Sans, Segoe UI, Arial"
                                HorizontalAlignment="Center"
                                VerticalAlignment="Center"/>
                 </Border>
                 <TextBlock Text="SauceBucket"
                            Foreground="#222"
                            FontWeight="Bold"
-                           FontSize="20"
+                           FontSize="18"
                            FontFamily="Inter, Segoe UI, Arial"
                            VerticalAlignment="Center"
-                           LetterSpacing="0.5"
+                           LetterSpacing="0.7"
                            Margin="0,0,0,0"/>
             </StackPanel>
 
-            <TextBlock Text="Quick Access" Foreground="#222" Margin="0,15,0,20" FontWeight="Bold" FontSize="24" FontFamily="Inter, Segoe UI, Arial" HorizontalAlignment="Left" Padding="10,0,0,0"/>
+            <!-- Divider -->
+            <Border Height="1" Background="#E0E0E0" Margin="14,18,16,5"/>
 
-            <!-- Placeholder items only -->
-            <StackPanel Orientation="Vertical" Spacing="12" Margin="0,0,0,0">
+            <TextBlock Text="Quick Access" Foreground="#222" Margin="14,18,0,8" FontWeight="Bold" FontSize="16" FontFamily="Inter, Segoe UI, Arial" HorizontalAlignment="Left"/>
+
+            <!-- Modernized placeholder buttons -->
+            <StackPanel Orientation="Vertical" Spacing="10" Margin="0,0,0,0">
                 <Button Content="Placeholder 1"
-                        Background="#FFE0B2"
+                        Background="#F5F5F7"
                         Foreground="#222"
-                        FontSize="18"
-                        FontWeight="SemiBold"
+                        FontSize="14"
+                        FontWeight="Medium"
                         FontFamily="Inter, Segoe UI, Arial"
-                        BorderBrush="#FF8C4A"
+                        BorderBrush="#D1D5DB"
                         BorderThickness="1"
-                        Padding="10,6"
-                        Margin="0,0,0,0">
+                        Padding="14,8"
+                        Margin="16,0,16,0"
+                        HorizontalAlignment="Left"
+                        Width="188"
+                        CornerRadius="8">
                     <Button.Styles>
                         <Style Selector="Button:hover">
-                            <Setter Property="Background" Value="#FFF3D1"/>
-                            <Setter Property="Foreground" Value="#222"/>
+                            <Setter Property="Background" Value="#E9E9EC"/>
+                            <Setter Property="BorderBrush" Value="#BDBDBD"/>
+                        </Style>
+                        <Style Selector="Button:pressed">
+                            <Setter Property="Background" Value="#E0E0E0"/>
                         </Style>
                     </Button.Styles>
                 </Button>
                 <Button Content="Placeholder 2"
-                        Background="#FFE0B2"
+                        Background="#F5F5F7"
                         Foreground="#222"
-                        FontSize="18"
-                        FontWeight="SemiBold"
+                        FontSize="14"
+                        FontWeight="Medium"
                         FontFamily="Inter, Segoe UI, Arial"
-                        BorderBrush="#FF8C4A"
+                        BorderBrush="#D1D5DB"
                         BorderThickness="1"
-                        Padding="10,6"
-                        Margin="0,0,0,0">
+                        Padding="14,8"
+                        Margin="16,0,16,0"
+                        HorizontalAlignment="Left"
+                        Width="188"
+                        CornerRadius="8">
                     <Button.Styles>
                         <Style Selector="Button:hover">
-                            <Setter Property="Background" Value="#FFF3D1"/>
-                            <Setter Property="Foreground" Value="#222"/>
+                            <Setter Property="Background" Value="#E9E9EC"/>
+                            <Setter Property="BorderBrush" Value="#BDBDBD"/>
+                        </Style>
+                        <Style Selector="Button:pressed">
+                            <Setter Property="Background" Value="#E0E0E0"/>
                         </Style>
                     </Button.Styles>
                 </Button>
-                <Button Content="Placeholder 2"
-                        Background="#FFE0B2"
+                <Button Content="Placeholder 3"
+                        Background="#F5F5F7"
                         Foreground="#222"
-                        FontSize="18"
-                        FontWeight="SemiBold"
+                        FontSize="14"
+                        FontWeight="Medium"
                         FontFamily="Inter, Segoe UI, Arial"
-                        BorderBrush="#FF8C4A"
+                        BorderBrush="#D1D5DB"
                         BorderThickness="1"
-                        Padding="10,6"
-                        Margin="0,0,0,0">
+                        Padding="14,8"
+                        Margin="16,0,16,0"
+                        HorizontalAlignment="Left"
+                        Width="188"
+                        CornerRadius="8">
                     <Button.Styles>
                         <Style Selector="Button:hover">
-                            <Setter Property="Background" Value="#FFF3D1"/>
-                            <Setter Property="Foreground" Value="#222"/>
+                            <Setter Property="Background" Value="#E9E9EC"/>
+                            <Setter Property="BorderBrush" Value="#BDBDBD"/>
+                        </Style>
+                        <Style Selector="Button:pressed">
+                            <Setter Property="Background" Value="#E0E0E0"/>
                         </Style>
                     </Button.Styles>
                 </Button>
